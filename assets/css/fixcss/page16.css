@@ -1,0 +1,36 @@
+.tabs-referral {
+    border: none;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.tabs-referral li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tabs-referral li a.active {
+    border-radius: 5px;
+}
+
+.refer-code {
+    width: 100%;
+}
+
+.refer-code>div {
+    display: flex;
+    margin-top: 10px;
+}
+
+.refer-code>div input {
+    width: 40%;
+    margin-top: 0;
+}
+
+.refer-code>div a {
+    width: 60%;
+    padding: 17px 20px;
+    text-align: center;
+}

@@ -1,0 +1,197 @@
+.infomation-detail.wallet {
+    justify-content: center;
+    align-items: center;
+}
+
+.infomation-detail.wallet .infomation-wallet {
+    text-align: center;
+}
+
+.infomation-detail.wallet .infomation-wallet h4 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #444444;
+}
+
+.infomation-detail.wallet .infomation-wallet .infomation-wallet-amount {
+    display: flex;
+    align-items: center;
+    transform: translate(10%, 0);
+}
+
+.infomation-detail.wallet .infomation-wallet .infomation-wallet-amount .amount {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: bold;
+    margin: 10px 20px 10px 0px;
+}
+
+.infomation-detail.wallet .infomation-wallet .infomation-wallet-amount .icon {
+    text-decoration: none;
+    font-size: 26px;
+    color: #010101;
+}
+
+.btn-restore {
+    padding: 7px 26.45px 6px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.btn-restore:hover {
+    background: #f5f5f5;
+}
+
+.wp-widget-slider {
+    margin-bottom: 30px;
+}
+
+.widget-slider {
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.widget-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.widget-slider .widget-slider-item {
+    background: #fff;
+    width: 170px;
+    border-radius: 5px;
+    padding: 20px 11px 20px 20px;
+    margin-right: 10px;
+    flex: none;
+}
+
+.widget-slider .widget-slider-item:last-child {
+    margin-right: 0;
+}
+
+.widget-slider .widget-slider-item .title {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #DC1E2D;
+}
+
+.widget-slider .widget-slider-item .desc {
+    display: flex;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widget-slider .widget-slider-item .desc .icon {
+    width: 16px;
+    cursor: pointer;
+}
+
+.widget-slider-detail {
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    display: none;
+}
+
+.widget-slider-detail .detail-item {
+    margin-bottom: 20px;
+    color: #010101;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget-slider-detail .detail-item.highlight {
+    color: #DC1E2D;
+}
+
+.widget-slider-detail hr {
+    background: #505050;
+    margin-bottom: 20px;
+}
+
+.widgets-form .widget-form-item {
+    margin-bottom: 30px;
+}
+
+.widgets-form .widget-form-item:last-child {
+    margin-bottom: 0;
+}
+
+.widgets-form .widget-form-item .title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+.widgets-form .widget-form-item .form-item {
+    width: 100%;
+    padding: 11px 20px 10px;
+    border-radius: 8px;
+}
+
+.widgets-form .widget-form-item .form-item,
+.widgets-form .widget-form-item .form-item::placeholder,
+.widgets-form .widget-form-item .form-item::-webkit-input-placeholder {
+    font-weight: 500;
+    color: #010101;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.widgets-form .widget-form-item .input-select {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widgets-form .widget-form-item .input-select .input-select-item {
+    background: #FFD441;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    padding: 11px 0px 10px;
+    border-radius: 5px;
+    width: 114px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    transition: all .3s;
+}
+
+.widgets-form .widget-form-item .input-select .input-select-item:hover {
+    background: #ebbe2b;
+}
+
+.btn-widget-form-transfer {
+    width: 100%;
+    border: none;
+    padding: 13px 0px;
+    background: #DC1E2D;
+    margin-top: 24px;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    transition: all .3s;
+}
+
+.btn-widget-form-transfer:hover {
+    background: #80040e;
+}

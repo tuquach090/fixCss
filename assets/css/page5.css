@@ -1,0 +1,87 @@
+@import "_var.css";
+
+#home {
+  padding: 10px 0;
+}
+.btn-delete {
+  background-color: var(--fh-yelow);
+  padding: 3px 25px;
+  border-radius: 5px;
+}
+.text-message {
+  font-size: 22px;
+  font-weight: bold;
+}
+.wrap-primary {
+  margin-top: 20px;
+}
+.wrap-btn-primary,
+.wrap-btn-voucher {
+  width: 50%;
+  text-align: center;
+}
+.wrap-btn-primary {
+  border-radius: 5px 0 0 5px;
+}
+.wrap-btn-voucher {
+  border-radius: 0 5px 5px 0;
+}
+.active {
+  background-color: var(--fh-bg-red) !important;
+}
+.active .btn-primary-custom {
+  color: white;
+}
+.btn-voucher,
+.btn-primary-custom {
+  font-weight: bold;
+}
+.btn-select {
+  background-color: var(--fh-yelow);
+  padding: 3px 25px;
+  border-radius: 5px;
+}
+.desc {
+  display: inline-block;
+  width: 350px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.wrap-content {
+  padding: 15px 20px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.wrap-content::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 15px;
+  margin-left: 5px;
+  left: -15px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+.active-item {
+  background-color: gray;
+  opacity: 0.8;
+}
+.active-item .wrap-content::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  top: 15px;
+  margin-left: 5px;
+  left: -15px;
+}

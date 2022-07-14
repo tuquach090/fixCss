@@ -1,0 +1,22 @@
+@import '_var.css';
+
+.text-password{
+    font-weight: bold;
+    font-size: 20px;
+}
+.icon-arrow{
+    font-size: 20px;
+}
+
+::placeholder{
+    color: black !important;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-submit{
+    width: 100%;
+    background-color: var(--fh-bg-red);
+}
+.wrap-btn{
+    padding: 0 10px;
+}

@@ -1,0 +1,217 @@
+@import "_var.css";
+.wrapper {
+  background-color: #ffd441;
+}
+.wrap-banner {
+  padding: 30px 0;
+  position: relative;
+}
+.welcome {
+  font-size: 24px;
+  color: #010101;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.wrap-vip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap-text {
+  display: flex;
+  align-items: center;
+}
+.image {
+  margin-right: 15px;
+}
+.text-username {
+  font-size: 19px;
+  color: #010101;
+  font-weight: bold;
+}
+.vip-level {
+  font-size: 17px;
+  color: #505050;
+  font-weight: bold;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 16px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #2bd93d;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ffe200;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ffe200;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.auto {
+  background-color: var(--fh-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 5px;
+}
+.text-auto {
+  color: #010101;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.wrap-voucher-text {
+  background-color: white;
+  position: absolute;
+  bottom: -73px;
+  right: 0px;
+  border-radius: 5px;
+  width: 100%;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.wrap-wallet {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.wrap-wallet::before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  background-color: #00000029;
+  right: -25px;
+}
+.wrap-voucher {
+  display: flex;
+  align-items: center;
+}
+.title-wallet {
+  color: #010101;
+  font-size: 19px;
+  font-weight: bold;
+}
+.text-number {
+  font-size: 17px;
+  color: #010101;
+  margin-top: 10px;
+}
+.text-wallet {
+  margin-left: 15px;
+}
+.detail {
+  margin-top: 100px;
+}
+.text-detail {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.cimb {
+  font-size: 19px;
+  color: black;
+  font-weight: bold;
+}
+.myr {
+  font-size: 15px;
+  color: black;
+}
+.bank {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+  position: relative;
+}
+.bank-content {
+  padding: 20px;
+}
+.cim-bank {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+.line {
+  width: 1px;
+  height: 21px;
+  background-color: black;
+}
+.account {
+  margin-top: 20px;
+}
+.account-name {
+  font-size: 19px;
+  color: #010101;
+}
+.name {
+  font-size: 19px;
+  color: black;
+  font-weight: bold;
+}
+.image-cimb {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.text-desc-cimb {
+  font-size: 17px;
+  color: #c4c4c4;
+  margin-bottom: 10px;
+}
+.customer {
+  color: #ffd441;
+  text-decoration: underline;
+  text-decoration-color: #ffd441;
+}

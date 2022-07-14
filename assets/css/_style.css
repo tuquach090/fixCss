@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import '_reset.css';
+@import '_var.css';
+
+body {
+	background: var(--fh-black);
+	color: var(--fh-white);
+	direction: ltr;
+	line-height: 1.34;
+	margin: 0;
+	padding: 0;
+	unicode-bidi: embed;
+	font-size: 16px;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#content {
+	margin-top: 61.44px;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+#content-main {
+	position: relative;
+	margin-top: 100px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#content-main .element1 {
+	position: absolute;
+	left: 17px;
+	top: 401.74px;
+}
+
+#content-main .element2 {
+	position: absolute;
+	top: 360.93px;
+	left: 375.49px;
+}
+
+#content-main .element3 {
+	position: absolute;
+	top: 580px;
+	left: 178px;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+/*================== Page 10 vs Page 11 vs Page 12 vs Page 14 ==================*/
+/* info-user */
+.info-user {
+	position: relative;
+	padding: 20px 30px 46px 20px;
+	color: #000;
+	background-color: #FFD441;
+}
+
+.info-user h2 {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.info-user .additional {
+	position: absolute;
+	background-color: #FFFFFF;
+	bottom: -70px;
+	left: 50%;
+	padding: 20px 0px;
+	transform: translateX(-50%);
+	border-radius: 5px;
+	display: flex;
+}
+
+.info-user .additional .wallet,
+.info-user .additional .voucher {
+	display: flex;
+	padding: 0px 40px;
+
+}
+
+.info-user .additional .wallet {
+	border-right: 1px solid #000;
+}
+
+.info-user .additional .wallet img,
+.info-user .additional .voucher img {
+	margin-right: 10px;
+}
+
+.info-user .additional .wallet .name p,
+.info-user .additional .voucher .name p {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.info-user .info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-user .info .name {
+	display: flex;
+}
+
+.info-user .info .transfer {
+	position: relative;
+	width: 130px;
+	height: 30px;
+	background-color: #ffff;
+	border-radius: 5px;
+}
+
+.info .transfer .switch {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.info .transfer p {
+	position: absolute;
+	font-size: 12px;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.info .name img {
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.info .name .name-user {
+	margin-bottom: 8px;
+}
+
+.info .name .vip-user {
+	font-size: 14px;
+	color: #505050;
+}
+
+/* toggle switch */
+.transfer .switch {
+	position: relative;
+	display: inline-block;
+	width: 32px;
+	height: 16px;
+}
+
+/* Hide default HTML checkbox */
+.transfer .switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 16px;
+	width: 16px;
+	left: 0px;
+	bottom: 0px;
+	background-color: #2BD93D;
+	border: 1px solid #000;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: #FFE200;
+	border: 1px solid #000;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #2196F3;
+
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(16px);
+	-ms-transform: translateX(16px);
+	transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+
+/* withdrawal */
+
+#content-main .title {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#content-main .title h2 {
+	padding-top: 5px;
+	font-size: 18px;
+}
+
+.card-header,
+.card-body {
+	background-color: #ffff !important;
+	color: #000 !important;
+	border-radius: 5px;
+}
+
+.card-header button,
+.card-header a {
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.card-header button img {
+	padding-top: 25px;
+}
+
+
+.card-header button h3,
+.card-header button p {
+	margin-bottom: 10px;
+}
+
+.card-header button p {
+	font-size: 14px;
+}
+
+.card-header button span,
+.promotion span {
+	font-weight: bold;
+	color: #DC1E2D;
+}
+
+.promotion {
+	border-bottom: 2px solid grey;
+	padding: 15px 0px;
+}
+
+/* bank ,accountName,accountNo,amount,deposit,deposit-bank,referral*/
+.bank,
+.accountName,
+.accountNo,
+.amount,
+.deposit,
+.deposit-bank,
+.referral {
+	margin-top: 31px;
+}
+
+.bank .title,
+.accountName .title,
+.accountNo .title,
+.amount .title,
+.deposit .title,
+.deposit-bank .title,
+.referral .title {
+	font-weight: bold;
+}
+
+.amount .estimates {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.amount .estimates button {
+	padding: 15px 45px;
+	background-color: #FFD441;
+	border-radius: 5px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 31px;
+}
+
+.btn-help {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 30px;
+	background-color: #FFD441;
+	border-radius: 5px;
+	color: #000;
+	font-weight: bold;
+}
+
+.btn-help:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.select-bank {
+	background-image:
+		linear-gradient(45deg, transparent 50%, gray 50%),
+		linear-gradient(135deg, gray 50%, transparent 50%),
+		linear-gradient(to right, #ccc, #ccc);
+	background-position:
+		calc(100% - 20px) calc(1em + 2px),
+		calc(100% - 15px) calc(1em + 2px),
+		calc(100% - 2.5em) 0.5em;
+	background-size:
+		5px 5px,
+		5px 5px,
+		1px 1.5em;
+	background-repeat: no-repeat;
+}
+
+.select-bank:focus {
+	background-image:
+		linear-gradient(45deg, green 50%, transparent 50%),
+		linear-gradient(135deg, transparent 50%, green 50%),
+		linear-gradient(to right, #ccc, #ccc);
+	background-position:
+		calc(100% - 15px) 1em,
+		calc(100% - 20px) 1em,
+		calc(100% - 2.5em) 0.5em;
+	background-size:
+		5px 5px,
+		5px 5px,
+		1px 1.5em;
+	background-repeat: no-repeat;
+	border-color: green;
+	outline: 0;
+}
+
+/* Daily */
+.limit-balance,
+.count-balance,
+.note-deposit {
+	font-size: 14px;
+	color: #C4C4C4;
+}
+
+.count-balance {
+	margin-bottom: 31px;
+}
+
+/* submit-withdraw */
+.submit-withdraw {
+	display: block;
+	padding: 15px 0px;
+	background-color: #DC1E2D;
+	color: #ffff;
+	margin: 0px 10px;
+}
+
+.submit-withdraw:hover {
+	opacity: 0.8;
+	color: #ffff;
+}
+
+/* tabs-referral */
+.tabs-referral {
+	background-color: #ffff !important;
+	font-weight: bold !important;
+	text-align: center !important;
+
+}
+
+.tabs-referral a {
+	color: #000 !important;
+}
+
+.tabs-referral .active {
+	color: #ffff !important;
+	background-color: #DC1E2D !important;
+	border: none;
+}
+
+/* block-earned */
+.block-earned {
+	position: relative;
+}
+
+.block-earned p {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 18px;
+	color: #505050;
+	font-weight: bold;
+}
+
+.block-earned span {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 38px;
+	font-weight: bold;
+}
+
+/* bar-info */
+.bar-info{
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-between;
+	align-items: center;
+}
+.bar-info p{
+	width: 260px;
+	height: 40px;
+	background-color: #ffff;
+	color: #010101;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px 0px 0px 5px;
+	z-index: 10;
+	
+}
+.bar-info span{
+	width: 160px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image:linear-gradient(to bottom,#FF9A5B,#EC5048) ;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 5px;
+	z-index: 10;
+}
+
+/* refer-code */
+.refer-code{
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0px;
+}
+.refer-code label{
+	font-size: 14px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+.refer-code input{
+	width: 140px;
+	padding: 15px 0px;
+	text-align: center;
+	border: none;
+	outline: none;
+	margin-top: 10px;
+	margin-right: 18px;
+	border-radius: 5px;
+	color: #DC1E2D;
+	font-weight: bold;
+}
+.refer-code a{
+	padding: 17px 100px;
+	background-color:#DC1E2D ;
+	color: #ffff;
+	border-radius: 5px;
+	font-weight: bold;
+}
+

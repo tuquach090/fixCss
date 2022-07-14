@@ -1,0 +1,49 @@
+@import "_var.css";
+
+.text-history {
+  font-weight: bold;
+  font-size: 20px;
+}
+.icon-arrow {
+  font-size: 20px;
+}
+.btn-action {
+  white-space: nowrap;
+  font-weight: bold;
+}
+.wrap-action {
+  overflow-x: scroll;
+}
+.active-action {
+  background-color: var(--fh-bg-red) !important;
+  color: white;
+}
+.form-control {
+  padding: 0.6rem 0.8rem !important;
+  border: 2px solid #ced4da !important;
+  transition: none !important;
+}
+select.form-control {
+  height: auto !important;
+  padding: 0.6rem 0.8rem calc(0.6rem + 1px) 0.8rem !important;
+}
+.month-form {
+  width: 100%;
+}
+.desc-payment {
+  color: var(--fh-yelow);
+  font-size: 19px;
+}
+.title-payment {
+  margin-bottom: 10px;
+}
+.wrap-payment {
+  padding: 15px;
+}
+li.item-payment {
+  border-bottom: 2px solid #505050;
+}
+.time {
+  color: #c4c4c4;
+  font-size: 19px;
+}
